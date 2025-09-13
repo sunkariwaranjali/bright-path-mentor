@@ -22,10 +22,21 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          soft: "hsl(var(--primary-soft))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        wellness: {
+          DEFAULT: "hsl(var(--wellness))",
+          foreground: "hsl(var(--wellness-foreground))",
+          soft: "hsl(var(--wellness-soft))",
+        },
+        calm: {
+          DEFAULT: "hsl(var(--calm))",
+          foreground: "hsl(var(--calm-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +68,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-calm': 'var(--gradient-calm)',
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-wellness': 'var(--gradient-wellness)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'wellness': 'var(--shadow-wellness)',
       },
       borderRadius: {
         lg: "var(--radius)",
